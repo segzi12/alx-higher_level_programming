@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    for letter in c:
+    for letter in str:
         ascii_value = ord(letter)
         if 97 <= ascii_value <= 122:
             ascii_value -= 32
